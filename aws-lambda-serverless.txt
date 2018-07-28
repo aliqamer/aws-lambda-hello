@@ -1,0 +1,9 @@
+
+aws lambda serverlesss
+
+create new proj -> sls create --template aws-java-gradle --path hello-world-java
+deploy -> sls deploy -v
+run from cli -> sls invoke -f hello -l
+create new stack -->  sls deploy -v
+deploy only fun  --> sls deploy function -f hello
+delete stack --> sls delete
